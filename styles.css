@@ -70,6 +70,9 @@ main {
   background-color: rgb(4, 4, 70);
   color: white;
 }
+.button-reset {
+  text-align: center;
+}
 .reset {
   cursor: pointer;
   background-color: rgb(4, 4, 70);
@@ -80,4 +83,11 @@ main {
 .reset:hover {
   color: rgb(4, 4, 70);
   background-color: white;
+}
+@media screen and (max-width: 900px) {
+  .liste-candidat {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
 }
